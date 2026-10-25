@@ -1,0 +1,48 @@
+{
+  "Elite Sprinter": [
+    {
+      "date": "2026-01-15",
+      "metric": "cmj_height_cm",
+      "value": 58.5,
+      "unit": "cm"
+    },
+    {
+      "date": "2026-04-10",
+      "metric": "cmj_height_cm",
+      "value": 61.2,
+      "unit": "cm"
+    },
+    {
+      "date": "2026-07-22",
+      "metric": "cmj_height_cm",
+      "value": 63.4,
+      "unit": "cm"
+    },
+    {
+      "date": "2026-10-18",
+      "metric": "cmj_height_cm",
+      "value": 64.1,
+      "unit": "cm"
+    }
+  ],
+  "Olympic Lifter": [
+    {
+      "date": "2026-02-01",
+      "metric": "cmj_height_cm",
+      "value": 47.0,
+      "unit": "cm"
+    },
+    {
+      "date": "2026-05-15",
+      "metric": "cmj_height_cm",
+      "value": 49.5,
+      "unit": "cm"
+    },
+    {
+      "date": "2026-09-01",
+      "metric": "cmj_height_cm",
+      "value": 51.0,
+      "unit": "cm"
+    }
+  ]
+}
