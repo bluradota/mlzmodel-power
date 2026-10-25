@@ -98,6 +98,7 @@ if "cohort_mgr" not in st.session_state:
 with st.sidebar:
     st.image("https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80", use_container_width=True)
     st.title("⚡ Athlete Profile")
+    st.caption("Principal Investigator: **Paul-Mihai Cosarca**")
     
     selected_preset = st.selectbox(
         "Load Preset Archetype",
@@ -110,7 +111,7 @@ with st.sidebar:
         p_data = SAMPLE_ARCHETYPES[selected_preset]
     else:
         p_data = {
-            "name": "Custom Subject",
+            "name": "Paul-Mihai Cosarca",
             "age": 25.0,
             "sex": "male",
             "height": 180.0,
@@ -119,7 +120,7 @@ with st.sidebar:
         }
     
     st.subheader("1. Core Anthropometry")
-    ath_name = st.text_input("Athlete Name / ID", value=p_data.get("name", "Athlete 01"))
+    ath_name = st.text_input("Athlete Name / ID", value=p_data.get("name", "Paul-Mihai Cosarca"))
     col_a1, col_a2 = st.columns(2)
     with col_a1:
         ath_sex = st.selectbox("Sex", ["male", "female"], index=0 if p_data.get("sex") == "male" else 1)
@@ -793,6 +794,7 @@ with tab_longitudinal:
 # Footer
 st.divider()
 st.caption(
+    "🔬 **Mlzmodel Engine** | Developed by **Paul-Mihai Cosarca** | Sports Biomechanics & Athletic Performance Research\n\n"
     "⚠️ **Ethical & Scientific Disclaimer:** This system is an exploratory biomechanical modeling tool for research and training insights. "
     "Anthropometry alone explains ~15-35% of power output variance; non-structural factors (neural drive, skill, recruitment) dominate. "
     "Do NOT use structural or genetic markers for medical diagnosis or exclusionary talent deselection."

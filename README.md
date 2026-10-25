@@ -1,5 +1,6 @@
 # Mlzmodel: Biomechanical & Anthropometric Power Output Profiling System
 
+**Lead Investigator & Author:** Paul-Mihai Cosarca  
 A research-grade sports biomechanics and data-science engine relating individual anthropometry, segment lever mechanics, and muscle architecture to athletic power output across multi-sport movements.
 
 ---

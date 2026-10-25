@@ -5,3 +5,4 @@ to athletic power output across multi-sport movements.
 """
 
 __version__ = "1.0.0"
+__author__ = "Paul-Mihai Cosarca"
